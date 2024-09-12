@@ -1,5 +1,3 @@
-import "json-server"
-
 const jsonServer = require("json-server")
 const server = jsonServer.create()
 const router = jsonServer.router('fotos.json')
